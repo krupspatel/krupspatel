@@ -1,4 +1,6 @@
 import ReactIcon from '../images/reactjs_icon.svg';
+import PythonIcon from '../images/python.png';
+import SQLIcon from '../images/sql.png';
 import NextjsIcon from '../images/nextjs_icon.svg';
 import ReduxIcon from '../images/redux_fill_icon.svg';
 import AngularIcon from '../images/angular_icon.svg';
@@ -14,11 +16,21 @@ import VyTracIcon from '../images/portfolio.png';
 import taskIcon from '../images/portfolio1.png';
 import cheapestEssay from '../images/portfolio4.png';
 import artisera from '../images/portfolio3.jpg';
+import tradatomy from '../images/portfolio5.png';
 // import vahdam from '../images/portfolio2.jpg';
 // import fizzyGoblet from '../images/portfolio5.jpg';
 import redlineImg from '../images/portfolio6.png';
 
 const portfolio = [
+    {
+        siteName: 'Tradatomy',
+        imageUrl: tradatomy,
+        link: 'https://app.tradatomy.com/',
+        description: 'Django, React.js, Typescript, REST, Websocket',
+        detail: '☞ Tradatomy is a trading platform that provides users with tools and resources to analyze financial markets, execute trades, and manage their portfolios effectively.',
+        point1: '☞ I developed user dashboards, trading interfaces, APIs, and server-side logic for a trading platform.',
+        point2: '☞ I ensuring fast, secure order execution and live price updates. I implemented authentication, data encryption, database management, and optimizing the system for high-speed transactions.'
+    },
     {
         siteName: 'VyTrac',
         imageUrl: VyTracIcon,
@@ -80,6 +92,10 @@ const portfolio = [
 
 const skills = [
     {
+        name: 'Python',
+        imageUrl: PythonIcon
+    },
+    {
         name: 'React.js',
         imageUrl: ReactIcon
     },
@@ -88,13 +104,17 @@ const skills = [
         imageUrl: NextjsIcon
     },
     {
+        name: 'SQL',
+        imageUrl: SQLIcon
+    },
+    {
         name: 'Redux',
         imageUrl: ReduxIcon
     },
-    {
-        name: 'Angular.js',
-        imageUrl: AngularIcon
-    },
+    // {
+    //     name: 'Angular.js',
+    //     imageUrl: AngularIcon
+    // },
     {
         name: 'Javascript',
         imageUrl: JavascriptIcon
@@ -103,10 +123,10 @@ const skills = [
         name: 'Typescript',
         imageUrl: TypescriptIcon
     },
-    {
-        name: 'Bootstrap',
-        imageUrl: BootstrapIcon
-    },
+    // {
+    //     name: 'Bootstrap',
+    //     imageUrl: BootstrapIcon
+    // },
     {
         name: 'Tailwind Css',
         imageUrl: TailwindIcon
@@ -155,7 +175,7 @@ export default function Work() {
                             <div className='relative text-left'>
                                 <div className="flex justify-between items-center">
                                     <h3>{item.siteName}</h3>
-                                    <a className="pb-1 view-more text-sm" href={item.link} rel="noreferrer" target='_blank'>View More</a>
+                                    {/* <a className="pb-1 view-more text-sm" href={item.link} rel="noreferrer" target='_blank'>View More</a> */}
                                 </div>
                                 <h6 className="text-base pb-1">Skills: {item.description}</h6>
                                 <p className='text-base'>{item.detail}</p>
@@ -174,7 +194,7 @@ export default function Work() {
                 </p>
                 <ul class="grid gap-x-8 gap-y-12 grid-cols-3 sm:grid-cols-4 sm:gap-y-16 xl:col-span-2 work-div pt-20">
                     {skills.map((item) => (
-                        <li key={item.name} className='flex flex-col gap-y-4'>
+                        <li key={item.name} className='flex flex-col gap-y-4 text-2xl'>
                             <img src={item.imageUrl} className="group relative mx-auto rounded-lg" alt={item.name} />
                             {item.name}
                         </li>

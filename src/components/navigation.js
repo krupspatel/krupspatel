@@ -10,7 +10,7 @@ const navigation = [
     { name: 'About', href: '#about' },
     { name: 'Work', href: '#work' },
     { name: 'Skills', href: '#skills' },
-    { name: 'Resume', href: '/CV-krupali-Ribadia.pdf', target: '_blank' },
+    { name: 'Resume', href: '/Krupali-Ribadia-Fullstack_dev.pdf', target: '_blank' },
     { name: 'Education', href: '#education' },
     { name: 'Get in Touch', href: '#contact' },
 ]

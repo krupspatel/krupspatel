@@ -1,11 +1,12 @@
 const stats = [
-    { id: 1, year: 'May 2023 - Dec 2023', name: 'Cubes Cloud - Senior Frontend Developer', place: 'Ahmedabad, Gujarat, India' },
-    { id: 2, year: 'Dec 2020 - Aug 2022', name: 'iFormApp Technology - Senior Frontend Developer', place: 'Surat, Gujarat, India' },
-    { id: 3, year: 'Sep 2019 - July 2020', name: 'Casepoint LLC - Senior Frontend Developer', place: 'Surat, Gujarat, India' },
-    { id: 4, year: 'Nov 2015 - Aug 2019', name: 'Softpulse Infotech - Senior UI/UX Designer', place: 'Surat, Gujarat, India' },
-    { id: 5, year: 'July 2014 - Nov 2015', name: 'Gatisofttech - UI-UX Designer', place: 'Surat, Gujarat, India' },
-    { id: 6, year: 'July 2011 - June 2014', name: 'Master of Computer Application', place: 'Gujarat Technological University, India' },
-    { id: 7, year: 'July 2008 - June 2011', name: 'Bachelors of Computer Application', place: 'South Gujarat University, India' },
+    { id: 1, year: 'June 2024 - Present', name: 'Tradatomy GmbH - Frontend Developer', place: 'Bad Homburg, Germany' },
+    { id: 2, year: 'May 2023 - Dec 2023', name: 'Cubes Cloud - Senior Frontend Developer', place: 'Ahmedabad, Gujarat, India' },
+    { id: 3, year: 'Dec 2020 - Aug 2022', name: 'iFormApp Technology - Senior Frontend Developer', place: 'Surat, Gujarat, India' },
+    { id: 4, year: 'Sep 2019 - July 2020', name: 'Casepoint LLC - Senior Frontend Developer', place: 'Surat, Gujarat, India' },
+    { id: 5, year: 'Nov 2015 - Aug 2019', name: 'Softpulse Infotech - Senior UI/UX Designer', place: 'Surat, Gujarat, India' },
+    { id: 6, year: 'July 2014 - Nov 2015', name: 'Gatisofttech - UI-UX Designer', place: 'Surat, Gujarat, India' },
+    { id: 7, year: 'July 2011 - June 2014', name: 'Master of Computer Application', place: 'Gujarat Technological University, India' },
+    { id: 8, year: 'July 2008 - June 2011', name: 'Bachelors of Computer Application', place: 'South Gujarat University, India' },
 ]
 
 export default function Work() {
