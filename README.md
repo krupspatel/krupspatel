@@ -8,9 +8,12 @@ I love to learn new technologies and create projects that solve real-world probl
 
 ## 🛠️ Tech Stacks
 
+- Python
+- SQL
 - React.js
-- Redux
 - Next.js
+- Django
+- Redux
 - Angular.js
 - Typescript
 - Javascript
