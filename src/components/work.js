@@ -43,7 +43,8 @@ const portfolio = [
     {
         siteName: '24task',
         imageUrl: taskIcon,
-        link: 'https://24task.com/',
+        link: '',
+        // link: 'https://24task.com/',
         description: 'React.js , Javascript, Bootstrap, Html5, css3',
         detail: '☞ 24task is platform which is hire freelancers & find Freelance Jobs Online.',
         point1: '☞ I managed the module of the Admin panel and the website of the main project.',
@@ -52,7 +53,8 @@ const portfolio = [
     {
         siteName: 'Cheapest Essay',
         imageUrl: cheapestEssay,
-        link: 'https://www.cheapestessay.com/order',
+        link: '',
+        // link: 'https://www.cheapestessay.com/order',
         description: 'React.js, Redux, Javascript, Material UI',
         detail: '☞ CheapestEssay is a great choice for people looking for a dependable and reasonably priced online essay writing service.',
         point1: '☞ I worked on main form of Place an order which include Redux functionality.',
@@ -61,7 +63,8 @@ const portfolio = [
     {
         siteName: 'Redline Coin',
         imageUrl: redlineImg,
-        link: 'https://www.redlinecoin.com/',
+        link: '',
+        // link: 'https://www.redlinecoin.com/',
         description: 'React.js, Javascript, Reactstrap, REST',
         detail: '☞ Redline Coin get the most accurate crypto signals about when to buy, sell or hold Bitcoin and other altcoins.',
         point1: '☞ I designed this website with Reactstrap css and I used REST api in it.',
